@@ -1,0 +1,50 @@
+body {
+  font-family: 'Lato', sans-serif;
+  /*background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');*/
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
+}
+.line-blue-header {
+  background-color: #4E84C4;
+  padding-bottom: 15px;
+  max-width: 100%;
+}
+.header-login__a {
+  color: #FFF;
+  height: 60px;
+  text-decoration: none;
+}
+
+/* MENU BAR NAVIGATION */
+.menu-bar{
+   background-color: #FFF;
+}
+.menu-bar__title {
+  font-weight: 100;
+  margin-left: 45px;
+}
+
+nav li {
+  /*margin: 0;*/
+  padding: 0 10px;
+  display: inline;
+}
+
+nav ul {
+  display: inline;
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #303944;
+  text-decoration: none;
+}
+
+/* BROWSER HEADER*/
+.line-blue-browser {
+  background-color: #4E84C4;
+  padding-bottom: 15px;
+  max-width: 100%;
+}
