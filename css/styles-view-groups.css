@@ -1,0 +1,256 @@
+
+.carrera__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 71.5%;
+  /*margin: 1rem;*/
+  display: inline-block;
+}
+
+/*TITLE DE LA CARRERA*/
+
+.container__title {
+  border-bottom: solid 0.14rem #4E84C4;
+  width: auto;
+  margin: 1.5rem 1rem;
+  height: 5.1rem;
+}
+.carrera__title {
+  /*border-bottom: solid 0.14rem #4E84C4;*/
+  width: auto;
+  margin: 0 1rem;
+  height: 5.1rem;
+  display: inline-block;
+}
+.carrera__title h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #1D3D59;
+  margin: .3rem 1rem;
+}
+
+.carrera__title span {
+  font-size: 1.1rem;
+  font-weight: lighter;
+  color: #C8C8C8;
+  margin: .5rem 1rem;
+}
+
+.carrera__container p {
+  font-size: 1rem;
+  color: #80BCF2;
+  width: 8rem;
+  margin: 1rem auto;
+  padding: 0 1.5rem;
+}
+
+/*LISTA DE SEMESTRES*/
+.semester__list_container {
+  width: 38rem;
+  margin: 1.8rem auto;
+  text-align: center;
+}
+
+.semester__list_container ul {
+  display: inline;
+  margin: 0 1.6rem;
+}
+.semester__list_container li {
+  margin: 0 1.2rem;
+  display: inline;
+}
+.semester__list_container a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #4779A6;
+  transition: all ease 0.3s;
+}
+
+.semester__list_container a:hover {
+  color: #80BCF2;
+  padding: .3rem .8rem;
+  border-radius: 50%;
+  border: solid 0.1rem #80BCF2;
+  /*background: #80BCF2;*/
+}
+
+/*LISTA DE SEMESTRES*/
+.materia__list_container {
+  width: auto;
+  margin: 1.8rem auto;
+  text-align: center;
+}
+
+.materia__list_container ul {
+  display: inline;
+  margin: 0;
+  width: 8%;
+}
+.materia__list_container li {
+  margin: 0 1.2rem;
+  display: inline;
+
+  text-align: center;
+}
+.materia__list_container a {
+  font-size: .7rem;
+  text-decoration: none;
+  color: #80BCF2;
+  transition: all ease 0.3s;
+}
+
+.materia__list_container a:hover {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: #4779A6;
+}
+
+/*line separater*/
+.line__center {
+  border-bottom: solid 0.1rem #4E84C4;
+  width: 90%;
+  margin: 2rem auto 0 auto;
+  height: 1rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #1D3D59;
+  margin: 0 1.3rem;
+
+}
+
+.semester__title span {
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #C8C8C8;
+  margin: 0 1.3rem;
+}
+
+/*VIEW GROUPS DE UNA MATERIA*/
+.group__list_container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.group__list_container ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.group__list_container li {
+  /*padding: 1rem 0 0 0;*/
+  margin: 0;
+}
+
+.group__list_container a {
+  text-decoration: none;
+}
+
+.group__list_container li:hover {
+  border-top: solid 0.15rem #80BCF2;
+  border-bottom: solid 0.15rem #80BCF2;
+  transition: all easy .3s;
+  /*background-color: #80BCF2;*/
+}
+
+.group__container {
+  border-bottom: solid .1rem #4E84C4;
+  display: inline-block;
+}
+
+.group__container div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 1rem auto;;
+  /*width: 30%;*/
+}
+
+.group__num {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #C8C8C8;
+  margin: 1rem;
+  vertical-align: middle;
+}
+
+.group__doc {
+  /*width: 90%;*/
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 45%;
+  margin: auto;
+}
+
+
+.group__doc h4{
+  font-size: 1.2rem;
+  color:#4779A6;
+  /*color: #4779A6;*/
+  margin-bottom: .1rem;
+}
+
+.group__doc h5{
+  color: #4779A6;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+
+.group__day {
+  width: 12%;
+  margin: 0 1rem;
+  justify-content: center;
+
+}
+
+.group__day span {
+  margin: 0 1rem;
+  margin-bottom: .1rem;
+  color: #80BCF2;
+}
+
+.group__hour {
+  width: 15.5%;
+  justify-content: center;
+  text-align: right;
+
+}
+
+.group__hour span {
+  margin: 0 1rem;
+  margin-bottom: .1rem;
+  color: #80BCF2;
+
+}
+
+.group__aula {
+  width: 7%;
+  margin: 0 1rem;
+  text-align: right;
+}
+
+.group__aula span {
+  margin: .5rem;
+  /*color: #80BCF2;*/
+  color: #4779A6;
+}
+
+.group__add {
+  width: 7.5%;
+}
+
+.group__add figure {
+  height: 1.5rem;
+  width: 1.5rem;
+  float: right;
+  display: inline-block;
+  vertical-align: middle;
+}

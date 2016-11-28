@@ -4,48 +4,262 @@
     <meta charset="utf-8">
     <title>Horarios</title>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-header.css">
+    <link rel="stylesheet" href="css/styles-main.css">
+
   </head>
   <body>
-    <header class="line-blue-header">
-      <!-- header icon and login -->
-      <div>
-        <a class ="header-login__a" href="">
-          <img></img>
-          <span>INGRESAR</span>
-        </a>
-      </div>
-    </header>
-
-    <!-- MENU BAR NAVIGATION -->
-    <div class="menu-bar">
-      <h1 class="menu-bar__title">Horario Universitario</h1>
-      <nav>
+    <div class="header">
+      <nav class="nav-header">
+        <figure class="icon-header"><img src="images/school.svg"></img></figure>
+        <a href="#"><h1 class="nav__title">Horario Universitario</h1></a>
         <ul>
-          <li><b><a href="#">Inicio</a></b></li>
           <li><a href="#">Horario</a></li>
           <li><a href="#">App-Movil</a></li>
         </ul>
       </nav>
+      <!-- header icon and login -->
+      <div class="global">
+        <nav class="nav-global">
+            <figure class="icon-lock"><img src="images/lock.svg"></img></figure>
+            <a class="" href="#">INGRESAR</a>
+            <figure class=""><img src="images/account.svg"></img></figure>
+            <a class="" href="#">REGISTRO</a>
+            <figure class="icon-search">
+                <a class="hover__search" href="#"><img src="images/search.svg"></img></a>
+            </figure>
+        </nav>
+      </div>
     </div>
-    <!-- BROWSER -->
-    <div class="line-blue-browser">
-      <a href="#">
-        <img src="" alt="" />
-      </a>
-      <input type="text" name="browser" value="Ej. Carrera, materia">
-    </div>
-    <section class="subjets">
-      <h3>Selecciona tu carrera</h3>
-      <div class="subject-only">
+
+    <!-- CONTAINER PRINCIPAL -->
+    <div class="main-container">
+
+      <div class="carrera__title">
+        <h2>Ingenieria<h2>
+      </div>
+
+
+      <div style="background-color:red" class="carrera-item">
         <a href="#">
-          <div class="subject-only">
-            <img src="" alt="" />
-            <h5>Ingenieria de Sistemas</h5>
-            <span>Fecha</span>
-          </div>
+            <figure>
+              <img class="icon-sistemas" src="images/sistemas.svg">
+            </figure>
+            <p>Ingenieria de Sistemas</p>
+            <span><img class="icon-refresh" src="images/refresh.svg" alt="" />27/10/2016</span>
         </a>
       </div>
-    </section>
+
+        <div style="background-color:#0EC97B" class="carrera-item">
+          <a href="#">
+          <figure>
+            <img class="icon-sistemas" src="images/informatica.svg">
+          </figure>
+          <p>Ingenieria Informatica</p>
+          <span><img class="icon-refresh" src="images/refresh.svg" alt="" />27/10/2016</span>
+          </a>
+        </div>
+
+      <div style="background-color:#0ECCCC" class="carrera-item">
+        <a href="#">
+          <figure>
+            <img class="icon-sistemas" src="images/sistemas.svg">
+          </figure>
+          <p>Ingenieria Industrial</p>
+          <span><img class="icon-refresh" src="images/refresh.svg" alt="" />27/10/2016</span>
+        </a>
+      </div>
+
+        <div style="background-color:#9400C4" class="carrera-item">
+          <a href="#">
+          <figure>
+            <img class="icon-sistemas" src="images/informatica.svg">
+          </figure>
+          <p>Ingenieria en Biologia</p>
+          <span><img class="icon-refresh" src="images/refresh.svg" alt="" />27/10/2016</span>
+          </a>
+        </div>
+
+    <div style="background-color:#0EC345" class="carrera-item">
+      <a href="#">
+          <figure>
+            <img class="icon-sistemas" src="images/sistemas.svg">
+          </figure>
+          <p>Ingenieria Civil</p>
+          <span><img class="icon-refresh" src="images/refresh.svg" alt="" />27/10/2016</span>
+      </a>
+    </div>
+
+        <div style="background-color:#0EC345" class="carrera-item">
+          <a href="#">
+          <figure>
+            <img class="icon-sistemas" src="images/sistemas.svg">
+          </figure>
+          <p>Ingenieria Informatica</p>
+          <span><img class="icon-refresh" src="images/refresh.svg" alt="" />27/10/2016</span>
+          </a>
+        </div>
+
+        <div style="background-color:#9400C4" class="carrera-item">
+          <a href="#">
+          <figure>
+            <img class="icon-sistemas" src="images/informatica.svg">
+          </figure>
+          <p>Didactica de la Fisica</p>
+          <span><img class="icon-refresh" src="images/refresh.svg" alt="" />27/10/2016</span>
+          </a>
+        </div>
+
+        <div style="background-color:red" class="carrera-item">
+          <a href="#">
+          <figure>
+            <img class="icon-sistemas" src="images/sistemas.svg">
+          </figure>
+          <p>Didactica en Matematica</p>
+          <span><img class="icon-refresh" src="images/refresh.svg" alt="" />27/10/2016</span>
+          </a>
+        </div>
+
+        <div style="background-color:#4779A6" class="carrera-item">
+          <a href="#">
+          <figure>
+            <img class="icon-sistemas" src="images/informatica.svg">
+          </figure>
+          <p>Ingenieria de Sistemas</p>
+          <span><img class="icon-refresh" src="images/refresh.svg" alt="" />27/10/2016</span>
+          </a>
+        </div>
+
+        <div style="background-color:#0ECCCC" class="carrera-item">
+          <a href="#">
+            <figure>
+              <img class="icon-sistemas" src="images/sistemas.svg">
+            </figure>
+            <p>Ingenieria Industrial</p>
+            <span><img class="icon-refresh" src="images/refresh.svg" alt="" />27/10/2016</span>
+          </a>
+        </div>
+
+        <div style="background-color:#0EC97B" class="carrera-item">
+          <a href="#">
+          <figure>
+            <img class="icon-sistemas" src="images/informatica.svg">
+          </figure>
+          <p>Ingenieria Informatica</p>
+          <span><img class="icon-refresh" src="images/refresh.svg" alt="" />27/10/2016</span>
+          </a>
+        </div>
+
+
+
+      <div style="background-color:#0ECCCC" class="carrera-item">
+        <a href="#">
+          <figure>
+            <img class="icon-sistemas" src="images/sistemas.svg">
+          </figure>
+          <p>Ingenieria Industrial</p>
+          <span><img class="icon-refresh" src="images/refresh.svg" alt="" />27/10/2016</span>
+        </a>
+      </div>
+
+        <div style="background-color:#9400C4" class="carrera-item">
+          <a href="#">
+          <figure>
+            <img class="icon-sistemas" src="images/informatica.svg">
+          </figure>
+          <p>Ingenieria en Biologia</p>
+          <span><img class="icon-refresh" src="images/refresh.svg" alt="" />27/10/2016</span>
+          </a>
+        </div>
+
+    <div style="background-color:#0EC345" class="carrera-item">
+      <a href="#">
+          <figure>
+            <img class="icon-sistemas" src="images/sistemas.svg">
+          </figure>
+          <p>Ingenieria Civil</p>
+          <span><img class="icon-refresh" src="images/refresh.svg" alt="" />27/10/2016</span>
+      </a>
+    </div>
+
+    <div class="carrera__title">
+      <h2>Licenciatura<h2>
+    </div>
+
+    <div style="background-color:#4779A6" class="carrera-item">
+      <a href="#">
+      <figure>
+        <img class="icon-sistemas" src="images/informatica.svg">
+      </figure>
+      <p>Licenciatura Fisica</p>
+      <span><img class="icon-refresh" src="images/refresh.svg" alt="" />27/10/2016</span>
+      </a>
+    </div>
+
+    <div style="background-color:#0ECCCC" class="carrera-item">
+      <a href="#">
+        <figure>
+          <img class="icon-sistemas" src="images/sistemas.svg">
+        </figure>
+        <p>Licenciatura Matematicas</p>
+        <span><img class="icon-refresh" src="images/refresh.svg" alt="" />27/10/2016</span>
+      </a>
+    </div>
+
+        <div style="background-color:#0EC345" class="carrera-item">
+          <a href="#">
+          <figure>
+            <img class="icon-sistemas" src="images/sistemas.svg">
+          </figure>
+          <p>Licenciatura Informatica</p>
+          <span><img class="icon-refresh" src="images/refresh.svg" alt="" />27/10/2016</span>
+          </a>
+        </div>
+
+        <div class="carrera__title">
+          <h2>Didactica<h2>
+        </div>
+
+        <div style="background-color:#9400C4" class="carrera-item">
+          <a href="#">
+          <figure>
+            <img class="icon-sistemas" src="images/informatica.svg">
+          </figure>
+          <p>Didactica de la Fisica</p>
+          <span><img class="icon-refresh" src="images/refresh.svg" alt="" />27/10/2016</span>
+          </a>
+        </div>
+
+        <div style="background-color:red" class="carrera-item">
+          <a href="#">
+          <figure>
+            <img class="icon-sistemas" src="images/sistemas.svg">
+          </figure>
+          <p>Didactica en Matematica</p>
+          <span><img class="icon-refresh" src="images/refresh.svg" alt="" />27/10/2016</span>
+          </a>
+        </div>
+
+
+
+
+    </div>
+    <!--  firebase -->
+
+    <script src="https://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyD3-Sp7S7q1cvYnL6PHHk0Xgvc8EAPPKIc",
+        authDomain: "myproyectpam.firebaseapp.com",
+        databaseURL: "https://myproyectpam.firebaseio.com",
+        storageBucket: "myproyectpam.appspot.com",
+        messagingSenderId: "763157513119"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+
   </body>
 </html>

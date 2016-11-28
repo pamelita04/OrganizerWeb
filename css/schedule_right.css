@@ -1,0 +1,141 @@
+body, html{
+  height: 100%;
+}
+
+.schedule__container {
+  width: 28%;
+  border-left: solid .13rem #4779A6;
+  height: auto;
+  float: right;
+  display: inline-block;
+  margin: .5rem 0;
+}
+
+/*box icons for sincronize*/
+.schedule_sincro {
+  height: 4.5rem;
+
+}
+.sincronize-box_nav {
+  height: auto;
+  width: auto;
+  /*display: inline-block;*/
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
+.sincronize-box_nav figure {
+  height: 4rem;
+  width: 4rem;
+  margin: .3rem;
+  display: inline-block;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.schedule__title {
+  color: #80BCF2;
+  /*width: 96%;*/
+  margin: 1rem auto .1rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+.container__aux {
+  border-top: solid .1rem #4779A6;
+  margin: 1rem;
+}
+
+.container__aux p {
+  color: #80BCF2;
+  font-size: .8rem;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  margin: .5rem;
+}
+
+.choise__container {
+  width: 96%;
+  /*background-color: #c8c8c8;*/
+  margin: .5rem auto;
+  padding: .5rem auto;
+  /*border-top: solid .1rem #4779A6;*/
+}
+
+.choise__container div {
+  /*margin: 0 .7rem;*/
+}
+
+.choise__materia {
+  margin: 0 .8rem;
+  padding-top: 1rem;
+}
+
+.choise__materia span , h4 {
+  font-size: 1.2rem;
+  /*color:#4779A6;*/
+  color: #fff;
+  margin-bottom: .1rem;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.choise__materia figure {
+  height: .7rem;
+  width: .7rem;
+  vertical-align: middle;
+  float: right;
+}
+
+.choise__doc h5 {
+  /*color: #80BCF2;*/
+  color: #fff;
+  font-size: 1rem;
+  font-weight: normal;
+  margin: .2rem 1rem;
+}
+
+.choise__doc h6 {
+  /*color: #C8c8c8;*/
+  color: #fff;
+  font-size: .8rem;
+  font-weight: 400;
+  margin: .2rem 1rem;
+}
+
+.choise__schedule {
+  height: 4rem;
+  margin-right: .2rem;
+}
+
+.schedule_box {
+  display: inline-block;
+  text-align: center;
+  float: right;
+  padding: 0 .3rem;
+  margin-right: .25rem;
+  margin-top: 1rem;
+  border: solid .1rem #fff;
+}
+
+.schedule_box span {
+  font-size: .7rem;
+  margin: 0;
+  color: #fff;
+}
+
+.schedule_box h6 {
+  font-size: .7rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: .2rem;
+}
+
+.schedule_box a:hover {
+  color: #80BCF2;
+}

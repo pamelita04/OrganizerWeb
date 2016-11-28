@@ -11,7 +11,7 @@ html {
 
 /*LEFT _ TITLE - MENU BAR*/
 .header {
-  background-color: #4E84C4;
+  background-color: #4779A6;
   height: 3.2rem;
   margin: 0 .1rem;
 }
@@ -44,8 +44,9 @@ nav ul {
 
 nav li {
   margin: 0;
-  padding: 0 1rem;
+  padding: 0 .7rem;
   display: inline;
+  font-size: 1.2rem;
 }
 
 .nav-header a {
@@ -70,11 +71,29 @@ nav li {
 }
 
 .nav-global figure {
-  padding: .8rem 0 .8rem 1.2rem;
+  padding: 0 0 0 1.3rem;
   display: inline-flex;
+  vertical-align: middle;
 }
 
 .nav-global a {
   color: white;
   text-decoration: none;
+  vertical-align: middle;
+}
+
+.hover__search {
+  height: 3.18rem;
+  width: 3.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  vertical-align: middle;
+  background-color: #C8C8C8;
+  position: static;
+}
+
+.hover__search:hover {
+  /*background-color: #80BCF2;*/
+  background-color: #C8C8C8;
 }

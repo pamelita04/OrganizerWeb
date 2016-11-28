@@ -1,0 +1,98 @@
+.principal__container {
+  /*height: 100vh;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  background-image: images/background.PNG;
+}
+
+.login__container {
+  /*background-color: #EFEFEF;*/
+  background-color: white;
+  width: 35%;
+  margin: 8rem auto;
+  height: auto;
+}
+
+.login__top {
+  background-color: none;
+  /*border-top: solid .5rem #F39B53;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem 0;
+}
+
+.login-title {
+  /*color: #c8c8c8;*/
+  color: #4E84C4;
+  /*color: #1B3444;*/
+  font-weight: 400;
+}
+
+.login-title span {
+  /*color: #31B1E5;*/
+  color: #4E84C4;
+  font-weight: 400;
+}
+
+.login-img {
+  width: 8rem;
+  border-radius: 50%;
+  border: solid .1rem blue;
+}
+
+.login__form {
+  /*background: #31B1E5; celete*/
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: .5rem 2rem 2rem;
+  text-align: center;
+}
+
+.login__form input[type=text], [type=password] {
+  border:none;
+  height: 50px;
+  width: 90%;
+  display: block;
+  margin: 1rem auto;
+  border-bottom: solid 0.15rem #4E84C4;
+  /*background:#EFEFEF;*/
+  transition: all .4s;
+  font-size: 1rem;
+  color: #1B3444;
+}
+
+.login__form input[type=text]:focus [type=password]:focus {
+  outline: none;
+  border-bottom: solid 0.2rem #4E84C4;
+}
+
+.btn__submit {
+  border:none;
+  height: 50px;
+  width: 90%;
+  display: block;
+
+  margin: 1rem auto;
+  background-color: #4779A6;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn__submit:hover {
+  background-color: #39A1E5;
+}
+
+.form__recover {
+  color: #4E84C4;
+  text-decoration: none;
+  text-align: center;
+  font-size: 13px;
+}
+.form__recover:hover {
+  color: #39A1E5;
+}

@@ -1,0 +1,143 @@
+.carrera-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*TITLE DE LA CARRERA*/
+.carrera__title {
+  border-bottom: solid 0.14rem #4E84C4;
+  width: 90%;
+  margin: 2rem auto 0 auto;
+  height: 5.1rem;
+}
+.carrera__title h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #1D3D59;
+  margin: .3rem 1rem;
+}
+
+.carrera__title span {
+  font-size: 1.1rem;
+  font-weight: lighter;
+  color: #C8C8C8;
+  margin: .5rem 1rem;
+}
+
+.carrera__container p {
+  font-size: 1rem;
+  color: #4779A6;
+  width: 8rem;
+  margin: 1rem auto;
+  padding: 0 1rem;
+}
+
+/*LISTA DE SEMESTRES*/
+.semester__list_container {
+  width: 38rem;
+  margin: 1.8rem auto;
+}
+
+.semester__list_container ul {
+  display: inline;
+  margin: 0 1.6rem;
+}
+.semester__list_container li {
+  margin: 0 1.2rem;
+  display: inline;
+}
+.semester__list_container a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #c8c8c8;
+  transition: all ease 0.3s;
+}
+
+.semester__list_container a:hover {
+  color: #4779A6;
+  padding: .3rem .8rem;
+  border-radius: 50%;
+  border: solid 0.1rem #4E84C4;
+  /*background: #80BCF2;*/
+}
+
+/*TITLE DE SEMESTRE*/
+.semester__title{
+  border-bottom: solid 0.1rem #4E84C4;
+  width: 60%;
+  margin: 2.5rem auto 0 auto;
+  height: 3.6rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #1D3D59;
+  margin: 0 1.3rem;
+
+}
+
+.semester__title span {
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #C8C8C8;
+  margin: 0 1.3rem;
+}
+
+/*VIEW MATERIAS DE UN SEMESTRE*/
+.materia__list_container {
+  width: 58%;
+  margin: 0 auto;
+}
+
+.materia__container {
+  border-bottom: solid .1rem #4E84C4;
+  height: 4.2rem;
+  /*margin: 0 2rem;*/
+  /*vertical-align: middle;*/
+}
+
+.materia__name {
+  /*width: 90%;*/
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+
+
+.materia__list_container ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.materia__list_container li {
+  padding: 1rem 0 0 0;
+}
+
+.materia__list_container a {
+  text-decoration: none;
+}
+
+.materia__list_container li:hover {
+  background-color: #80BCF2;
+}
+
+.materia__list_container span {
+  color: #C8C8C8;
+  font-size: 1rem;
+  font-weight: normal;
+  margin: .3rem 1.3rem;
+  display: inline-block;
+}
+
+.materia__container figure {
+  height: 3rem;
+  width: 3rem;
+  float: right;
+  display: inline-block;
+  vertical-align: middle;
+  margin: .1rem 1.1rem;
+}
